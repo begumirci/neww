@@ -1,79 +1,16 @@
-@import url(./reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
 .container {
-  /* padding-left: 165px;
-  padding-right: 165px; */
-}
-.box {
-  margin-bottom: 100px;
-  & h6 {
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 16px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: rgba(33, 33, 33, 1);
-  }
+  position: relative;
+  width: 35px;
+  height: 35px;
 
-  & p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: rgba(33, 33, 33, 1);
-  }
-}
-
-#apple-rende {
-  float: left;
-  padding-right: 24px;
-}
-#apple-watch {
-  float: right;
-  padding-left: 24px;
-}
-.box p:last-child {
-  padding-top: 32px;
-}
-
-.box2 {
-  background-color: grey;
-
-  padding-right: 125px;
-  padding-left: 125px;
-  padding-top: 96px;
-  padding-bottom: 96px;
-  border-radius: 12px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  & h4 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
-    letter-spacing: -0.35px;
-    text-align: center;
-    color: rgba(33, 33, 33, 1);
-    padding-bottom: 16px;
-  }
-
-  & h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 700px;
-    line-height: 30px;
-    text-align: center;
-    color: rgba(33, 33, 33, 1);
-  }
-}
-
-.deneme {
-  background-color: black;
-  margin: auto;
-
-  & h1 {
+  & span {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
     color: white;
-    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    right: 2px;
   }
 }
